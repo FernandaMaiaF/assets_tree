@@ -4,13 +4,9 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## To do
 
-A few resources to get you started if this is your first Flutter project:
+- Resolve filter problem,current not getting the parents of the asset found.
+- Apply filter to the buttons above Seach filter.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+apk link: https://drive.google.com/file/d/18Bqs2ZOvybDM8N6FyzFrL32mxxuFoCQp/view?usp=sharing (non final version)
