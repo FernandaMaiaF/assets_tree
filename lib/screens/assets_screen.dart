@@ -119,11 +119,30 @@ class _AssetScreenState extends State<AssetScreen> {
                                   ),
                                   hintText: 'Busar Ativo ou Local',
                                   contentPadding: const EdgeInsets.symmetric(
-                                      horizontal: 8.0),
+                                      horizontal: 8.0, vertical: 4),
                                 ),
                               ),
                             ),
                           ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            TextButton.icon(
+                              onPressed: () {},
+                              icon: const Icon(Icons.flash_on_outlined),
+                              style: TextButton.styleFrom(
+
+                                foregroundColor: Theme.of(context).primaryColor,
+                              ),
+                              label: const Text('Sensor de Energia'),
+                            ),
+                            TextButton.icon(
+                              onPressed: () {},
+                              icon: const Icon(Icons.info),
+                              label: const Text('Crítico'),
+                            ),
+                          ],
+                        ),
                         const Divider(),
                         if (!(_textEditingController.text.isNotEmpty &&
                             filteredLocation.isEmpty))
